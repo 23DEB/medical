@@ -16,3 +16,4 @@ requests
 PyPDF2
 tqdm
 sentence-transformers
+langchain-huggingface
