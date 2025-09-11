@@ -136,7 +136,7 @@ Once the backend is running, visit `http://127.0.0.1:8000/docs` for interactive 
                         │                               │                               │
                         ▼                               ▼                               ▼
               ┌─────────────────┐             ┌─────────────────┐             ┌─────────────────┐
-              │  📄 PDF Upload  │             │  🩺 Diagnosis   │             │  🔐 Auth System │
+              │  📄 PDF Upload  │             │ 🩺 Diagnosis   │             │  🔐 Auth System │
               │                 │             │                 │             │                 │
               │ • File Storage  │             │ • Query Process │             │ • Login/Signup  │
               │ • Text Extract  │             │ • LLM Response  │             │ • Role Check    │
@@ -144,7 +144,7 @@ Once the backend is running, visit `http://127.0.0.1:8000/docs` for interactive 
                         │                               │                               │
                         ▼                               ▼                               ▼
               ┌─────────────────┐             ┌─────────────────┐             ┌─────────────────┐
-              │ ⚙️ Text Process │             │ 🔍 Vector Search │             │ 💾 MongoDB      │
+              │ ⚙️ Text Process |             │🔍 Vector Search│             │ 💾 MongoDB      │
               │                 │             │                 │             │                 │
               │ • Chunk Text    │◄────────────│ • Semantic Query│             │ • Users         │
               │ • Generate      │             │ • Context Fetch │             │ • Reports       │
@@ -209,10 +209,6 @@ API_URL=https://your-render-backend-url.com
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [FastAPI](https://fastapi.tiangolo.com/) for the excellent web framework
@@ -223,7 +219,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your-email@example.com or create an issue in this repository.
+For support, email debadityamajumdar@example.com or create an issue in this repository.
 
 ---
 
